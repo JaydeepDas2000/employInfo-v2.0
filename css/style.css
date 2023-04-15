@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.nav_logo{
+    color: #999;
+    font-size: 16px;
+}
+h3{
+    font-weight: 700;
+    color: #dd4b05;
+}
+.one tr{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.animate tr{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn tr{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #dd4b05;
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #212529;
+    border-radius: 10px;
+}
+
+/* .model{
+    display : none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.model-content{
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.25), 0 7px 20px 0 rgba(0,0,0,0.25);
+    animation-name: modelopen;
+    animation-duration: 0.5s;
+}
+
+.model-header h5, .model-footer{
+    margin: 0;
+}
+
+.model-header{
+    background: #dd4b05;
+    padding: 15px;
+    color: #fff;
+}
+
+.model-body{
+    padding: 10px 20px;
+}
+
+.model-footer{
+    background: #212529;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.closeBtn{
+    color: #fff;
+    float: right;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modelopen {
+    from{opacity: 0;}
+    to{opacity: 1;}
+} */
